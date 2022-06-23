@@ -2,8 +2,8 @@
  * @Author: HxB
  * @Date: 2022-06-20 18:15:03
  * @LastEditors: DoubleAm
- * @LastEditTime: 2022-06-23 15:15:10
- * @Description: 主程式码
+ * @LastEditTime: 2022-06-23 16:03:03
+ * @Description: 主程式码 xhr
  * @FilePath: \js-xajax\src\xajax.ts
  */
 
