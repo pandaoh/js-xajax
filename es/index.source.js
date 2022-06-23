@@ -246,4 +246,4 @@ var XAjaxClass = (function () {
 }());
 var XAjax = new XAjaxClass();
 
-export { EVENTS, HttpMethod, XAjax, XAjax as default };
+export { EVENTS, HttpMethod, XAjax, XAjaxClass, XAjax as default };

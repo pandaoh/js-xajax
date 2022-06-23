@@ -65,7 +65,7 @@ export interface XAjaxOptions<T = unknown> {
 interface HandlerFunction<T = any> {
     (data: T): T;
 }
-declare class XAjaxClass {
+export declare class XAjaxClass {
     private _options;
     private _defaultConfig;
     constructor(options?: XAjaxOptions);

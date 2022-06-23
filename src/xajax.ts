@@ -2,7 +2,7 @@
  * @Author: HxB
  * @Date: 2022-06-20 18:15:03
  * @LastEditors: DoubleAm
- * @LastEditTime: 2022-06-23 16:21:13
+ * @LastEditTime: 2022-06-23 16:28:10
  * @Description: 主程式码 xhr
  * @FilePath: \js-xajax\src\xajax.ts
  */
@@ -100,7 +100,7 @@ interface Response {
 /**
  * XAjaxClass 基础类
  */
-class XAjaxClass {
+export class XAjaxClass {
   private _options: XAjaxOptions;
 
   /**

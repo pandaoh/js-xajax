@@ -1,4 +1,4 @@
-[js-xajax - v1.0.0](../README.md) / HttpMethod
+[js-xajax - v1.0.1](../README.md) / HttpMethod
 
 # Enumeration: HttpMethod
 

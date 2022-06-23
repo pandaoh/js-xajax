@@ -254,6 +254,7 @@
 
     exports.EVENTS = EVENTS;
     exports.XAjax = XAjax;
+    exports.XAjaxClass = XAjaxClass;
     exports["default"] = XAjax;
 
     Object.defineProperty(exports, '__esModule', { value: true });

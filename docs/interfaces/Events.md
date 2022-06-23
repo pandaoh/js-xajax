@@ -1,4 +1,4 @@
-[js-xajax - v1.0.0](../README.md) / Events
+[js-xajax - v1.0.1](../README.md) / Events
 
 # Interface: Events
 

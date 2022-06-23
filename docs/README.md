@@ -1,6 +1,6 @@
-js-xajax - v1.0.0
+js-xajax - v1.0.1
 
-# js-xajax - v1.0.0
+# js-xajax - v1.0.1
 
 ## Table of contents
 
@@ -11,6 +11,10 @@ js-xajax - v1.0.0
 ### Enumerations
 
 - [HttpMethod](enums/HttpMethod.md)
+
+### Classes
+
+- [XAjaxClass](classes/XAjaxClass.md)
 
 ### Interfaces
 
@@ -54,4 +58,4 @@ ___
 
 ### XAjax
 
-• `Const` **XAjax**: `XAjaxClass`
+• `Const` **XAjax**: [`XAjaxClass`](classes/XAjaxClass.md)

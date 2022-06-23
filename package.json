@@ -1,6 +1,6 @@
 {
   "name": "js-xajax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "XHR tool wrapper, convenient use and global management.",
   "main": "lib/index.js",
   "module": "es/index.js",

@@ -1,4 +1,4 @@
-[js-xajax - v1.0.0](../README.md) / XAjaxOptions
+[js-xajax - v1.0.1](../README.md) / XAjaxOptions
 
 # Interface: XAjaxOptions<T\>
 
