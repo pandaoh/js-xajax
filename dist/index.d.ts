@@ -86,4 +86,4 @@ export declare class XAjaxClass {
 declare const XAjax: XAjaxClass;
 export { XAjax };
 export default XAjax;
-//# sourceMappingURL=xajax.d.ts.map
+//# sourceMappingURL=index.d.ts.map

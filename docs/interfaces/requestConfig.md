@@ -1,4 +1,4 @@
-[js-xajax - v1.0.1](../README.md) / requestConfig
+[js-xajax - v1.1.0](../README.md) / requestConfig
 
 # Interface: requestConfig<T\>
 

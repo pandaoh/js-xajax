@@ -2,7 +2,7 @@
  * @Author: HxB
  * @Date: 2022-05-26 14:08:20
  * @LastEditors: DoubleAm
- * @LastEditTime: 2022-06-20 18:22:55
+ * @LastEditTime: 2022-08-29 10:21:43
  * @Description: 打包配置
  * @FilePath: \js-xajax\rollup.config.js
  */
@@ -19,17 +19,19 @@ const extensions = ['.js', '.jsx', '.ts', '.tsx'];
 
 /** @type {import('rollup').RollupOptions} */
 const options = {
-  input: getPath('src/xajax.ts'),
+  input: getPath('src/index.ts'),
   output: [
     {
       file: getPath(pkg.main),
       format: 'cjs',
+      name: 'xajax',
       exports: 'named',
       plugins: [terser()]
     },
     {
       file: getPath(pkg.module),
       format: 'es',
+      name: 'xajax',
       exports: 'named',
       plugins: [terser()]
     },
@@ -50,18 +52,20 @@ const options = {
     {
       file: getPath(pkg['main-source']),
       format: 'cjs', // lib
+      name: 'xajax',
       exports: 'named'
     },
     {
       file: getPath(pkg['module-source']),
       format: 'es', // es
+      name: 'xajax',
       exports: 'named'
     },
     {
       file: getPath(pkg['unpkg-source']),
       format: 'umd', // dist
-      exports: 'named',
-      name: 'xajax'
+      name: 'xajax',
+      exports: 'named'
     },
     {
       file: getPath(pkg['iife-source']),

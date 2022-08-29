@@ -1,6 +1,6 @@
-js-xajax - v1.0.1
+js-xajax - v1.1.0
 
-# js-xajax - v1.0.1
+# js-xajax - v1.1.0
 
 ## Table of contents
 
